@@ -1,0 +1,90 @@
+/* Base container */
+.prediction-container {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #1e1e1e;
+  color: #e0e0e0;
+  min-height: 100vh;
+  padding: 30px;
+  box-sizing: border-box;
+}
+
+/* Headings */
+h2 {
+  font-size: 2.2rem;
+  text-align: center;
+  margin-bottom: 30px;
+  color: #ffffff;
+}
+
+h3 {
+  font-size: 1.5rem;
+  margin-bottom: 15px;
+  color: #ffffff;
+}
+
+/* Section cards */
+.stats-section {
+  background-color: #2a2a2a;
+  border-radius: 12px;
+  padding: 20px 25px;
+  margin-bottom: 30px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.4);
+}
+
+/* Player select */
+select {
+  background-color: #333;
+  color: #e0e0e0;
+  border: 1px solid #555;
+  padding: 8px 12px;
+  border-radius: 6px;
+  margin-top: 10px;
+}
+
+/* Lists */
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  font-size: 1rem;
+  margin-bottom: 10px;
+}
+
+li span {
+  font-weight: bold;
+  font-size: 1.1rem;
+}
+
+/* Chart area */
+.chart-container {
+  margin-top: 30px;
+  background-color: #2a2a2a;
+  padding: 20px;
+  border-radius: 12px;
+}
+
+/* Color coding */
+.green {
+  color: #22c55e; /* Tailwind green-500 */
+}
+
+.amber {
+  color: #facc15; /* Tailwind amber-400 */
+}
+
+.red {
+  color: #ef4444; /* Tailwind red-500 */
+}
+
+/* Tooltip overrides (recharts) */
+.recharts-tooltip-label {
+  color: #ffffff !important;
+}
+
+.recharts-default-tooltip {
+  background-color: #333 !important;
+  border: 1px solid #555 !important;
+  color: #fff !important;
+}

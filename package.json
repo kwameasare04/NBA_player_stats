@@ -3,9 +3,12 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "body-parser": "^2.2.0",
     "chromedriver": "^134.0.5",
+    "cors": "^2.8.5",
     "cra-template-pwa": "2.0.0",
     "csv-writer": "^1.6.0",
+    "express": "^5.1.0",
     "lodash": "^4.17.21",
     "ml-regression": "^6.2.0",
     "papaparse": "^5.5.2",
